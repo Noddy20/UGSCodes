@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
         if(scoreB<21 && scoreA<21)
         scoreB++;
         displayForPlayerB(scoreB);
-        if(scoreA==21) {
-            char a = 'A';
-            displayWinner(a);
+        if(scoreB==21) {
+            char b = 'B';
+            displayWinner(b);
         }
     }
     //decrease 1 point of player A
